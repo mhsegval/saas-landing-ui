@@ -571,6 +571,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
+.logo-ticker-image {
+  height: 2rem;
+  width: auto;
+}
 .absolute {
   position: absolute;
 }
@@ -628,6 +632,9 @@ video {
 .w-5 {
   width: 1.25rem;
 }
+.flex-none {
+  flex: none;
+}
 .rotate-\[30deg\] {
   --tw-rotate: 30deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -650,6 +657,12 @@ video {
 .gap-6 {
   gap: 1.5rem;
 }
+.gap-14 {
+  gap: 3.5rem;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
 .overflow-x-clip {
   overflow-x: clip;
 }
@@ -666,6 +679,10 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-\[radial-gradient\(ellipse_200\%_100\%_at_bottom_left\2c _var\(--tw-gradient-stops\)\)\] {
   background-image: radial-gradient(ellipse 200% 100% at bottom left, var(--tw-gradient-stops));
@@ -707,6 +724,10 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .pb-20 {
   padding-bottom: 5rem;
@@ -760,6 +781,9 @@ video {
   --tw-backdrop-blur: blur(4px);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
+.\[mask-image\:linear-gradient\(to_right\2c transparent\2c black\2c transparent\)\] {
+  mask-image: linear-gradient(to right,transparent,black,transparent);
+}
 
 @media (min-width: 768px) {
 
@@ -809,6 +833,11 @@ video {
 
   .md\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:pb-10 {
