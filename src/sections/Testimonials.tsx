@@ -1,3 +1,4 @@
+"use clients";
 import avatar1 from "@/assets/avatar-1.png";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
@@ -9,6 +10,8 @@ import avatar8 from "@/assets/avatar-8.png";
 import avatar9 from "@/assets/avatar-9.png";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
+import { motion } from "framer-motion";
+import React from "react";
 
 const testimonials = [
   {
@@ -81,6 +84,11 @@ const TestimonialColumn = (props: {
       props.className
     )}
   >
+    {/* {[
+      ...new Array[2].fill(0).map((_, index) => (
+        <React.Fragment key={index}></React.Fragment>
+      )),
+    ]} */}
     {props.testimonials.map(({ text, imageSrc, name, username }) => (
       <div className="card">
         <div>{text}</div>
